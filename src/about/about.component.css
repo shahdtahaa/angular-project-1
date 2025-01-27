@@ -1,0 +1,29 @@
+
+.about{
+  background-color:#1ABC9C;
+}
+.w-75{
+  width: 75%;
+}
+h2{
+  font-weight: bold;
+}
+
+.line-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.line-container::before,
+.line-container::after {
+  content: "";
+  flex: 1; 
+  height: 4px; 
+  background-color: white; 
+}
+
+.wrap-txt{
+  
+}
